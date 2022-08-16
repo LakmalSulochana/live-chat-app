@@ -208,7 +208,6 @@
       <change afterPath="$PROJECT_DIR$/../../sipewana institute/src/styles/style.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../sipewana institute/src/view/DashBoardForm.fxml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../sipewana institute/src/view/LoginForm.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,19 +249,6 @@
       <recent name="E:\IJSE\Live chat app\lib" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -271,7 +257,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660647613538</updated>
-      <workItem from="1660647616060" duration="1887000" />
+      <workItem from="1660647616060" duration="2611000" />
     </task>
     <servers />
   </component>
