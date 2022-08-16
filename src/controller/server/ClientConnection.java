@@ -1,10 +1,11 @@
 package controller.server;
+
 import controller.server.ServerFormController;
 
 import java.io.*;
 import java.net.Socket;
 
-public class ClientConnection {
+public class ClientConnection implements Runnable{
     private final Socket accept;
     private final ServerFormController server;
     private BufferedReader bufferedReader;

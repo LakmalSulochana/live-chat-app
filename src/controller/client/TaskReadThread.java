@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.Socket;
 
-public class TaskReadThread {
+public class TaskReadThread implements Runnable{
     Socket socket;
     UserFormController client;
     BufferedReader reader;
