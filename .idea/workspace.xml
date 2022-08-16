@@ -208,7 +208,7 @@
       <change afterPath="$PROJECT_DIR$/../../sipewana institute/src/styles/style.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../sipewana institute/src/view/DashBoardForm.fxml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../sipewana institute/src/view/LoginForm.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/UserFormController.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/UserFormController.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/ServerForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/ServerForm.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -297,7 +297,7 @@
       <option name="presentableId" value="Default" />
       <updated>1660647613538</updated>
       <workItem from="1660647616060" duration="2611000" />
-      <workItem from="1660679726131" duration="459000" />
+      <workItem from="1660679726131" duration="812000" />
     </task>
     <servers />
   </component>
