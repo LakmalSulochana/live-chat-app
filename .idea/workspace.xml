@@ -15,7 +15,6 @@
       <change afterPath="$PROJECT_DIR$/../../Completed Project/easy car rent/frontend/Frontend.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../2 nd sem/SPA Reactjs/test01/.idea/test01.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../2 nd sem/SPA Reactjs/test01/src/pages/Home/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../React/.idea/React.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../socket/.idea/socket.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../socket/socket_gdse/demo/demo.iml" afterDir="false" />
@@ -209,19 +208,26 @@
       <change afterPath="$PROJECT_DIR$/../../sipewana institute/src/styles/style.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../sipewana institute/src/view/DashBoardForm.fxml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../sipewana institute/src/view/LoginForm.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2DR2Wf426iMeep7I5Fn3998GVJC" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -232,6 +238,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="D:/chat_app" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
@@ -255,7 +262,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660647613538</updated>
-      <workItem from="1660647616060" duration="306000" />
+      <workItem from="1660647616060" duration="633000" />
     </task>
     <servers />
   </component>
