@@ -60,7 +60,7 @@
             </ImageView>
          </children>
       </AnchorPane>
-      <Pane layoutX="39.0" layoutY="733.0" prefHeight="50.0" prefWidth="365.0" style="-fx-background-color: #95afc0;">
+      <Pane fx:id="emojiPaneBar" layoutX="39.0" layoutY="733.0" prefHeight="50.0" prefWidth="365.0" style="-fx-background-color: #95afc0;">
          <children>
             <ImageView fitHeight="26.0" fitWidth="31.0" layoutX="17.0" layoutY="13.0" onMouseClicked="#imojiGrinningFace" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -87,7 +87,7 @@
                   <Image url="@../assets/imoji/icons8-smiling-face-with-heart-eyes-48.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="emojiPane" fitHeight="26.0" fitWidth="31.0" layoutX="249.0" layoutY="13.0" onMouseClicked="#imojiWorry" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="26.0" fitWidth="31.0" layoutX="249.0" layoutY="13.0" onMouseClicked="#imojiWorry" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../assets/imoji/worry.png" />
                </image>

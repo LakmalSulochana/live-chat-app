@@ -208,6 +208,7 @@
       <change afterPath="$PROJECT_DIR$/../../sipewana institute/src/styles/style.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../sipewana institute/src/view/DashBoardForm.fxml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../sipewana institute/src/view/LoginForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,9 +244,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/imoji" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2735602" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -256,7 +258,7 @@
       <recent name="E:\IJSE\Live chat app\src\assets\img" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ServerAppInit">
+  <component name="RunManager" selected="Application.ClientAppInit">
     <configuration name="ClientAppInit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ClientAppInit" />
       <module name="Live chat app" />
@@ -286,8 +288,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ServerAppInit" />
         <item itemvalue="Application.ClientAppInit" />
+        <item itemvalue="Application.ServerAppInit" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +304,7 @@
       <workItem from="1660647616060" duration="2611000" />
       <workItem from="1660679726131" duration="1567000" />
       <workItem from="1661064679704" duration="3258000" />
-      <workItem from="1661075193873" duration="7486000" />
+      <workItem from="1661075193873" duration="8547000" />
     </task>
     <servers />
   </component>
@@ -316,6 +318,16 @@
           <url>file://$PROJECT_DIR$/src/ClientAppInit.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ServerAppInit.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ServerAppInit.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
