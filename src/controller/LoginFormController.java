@@ -14,7 +14,7 @@ import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
 import java.io.IOException;
-
+import java.net.URL;
 
 
 public class LoginFormController {
@@ -25,7 +25,7 @@ public class LoginFormController {
     private double yOffset = 0;
 
     public void btnLogin(ActionEvent actionEvent) throws IOException {
-        userName = txtLoginName.getText().isEmpty() ? "Unknown" : txtLoginName.getText();
+      /*  userName = txtLoginName.getText().isEmpty() ? "Unknown" : txtLoginName.getText();
         Data.userName = userName;
         Stage stage = new Stage();
         Parent root = FXMLLoader.load(getClass().getResource("../view/UserForm.fxml"));
@@ -54,6 +54,17 @@ public class LoginFormController {
         stage.setScene(scene);
         stage.centerOnScreen();
         stage.show();
+        logingPane.getScene().getWindow().hide();*/
+        userName = txtLoginName.getText().isEmpty() ? "Unknown" : txtLoginName.getText();
+        Data.userName = userName;
+        System.out.println(Data.userName);
+        URL resource = getClass().getResource("../view/UserForm.fxml");
+        Parent load = FXMLLoader.load(resource);
+        Stage stage = new Stage();
+        Scene scene = new Scene(load);
+        stage.setScene(scene);
+        stage.show();
+
         logingPane.getScene().getWindow().hide();
     }
 

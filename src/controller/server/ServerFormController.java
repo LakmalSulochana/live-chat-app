@@ -21,24 +21,6 @@ public class ServerFormController implements Initializable {
     List<ClientConnection> connectionList = new ArrayList<>();
 
     ServerSocket serverSocket;
-
-    public void btnSend(ActionEvent actionEvent) {
-    }
-
-    public void btnClose(ActionEvent actionEvent) {
-        /*if (serverSocket != null) {
-            serverSocket.close();
-        }*/
-        Stage stage = (Stage) ((Button) actionEvent.getSource()).getScene().getWindow();
-        stage.close();
-    }
-
-    public void btnMinimize(ActionEvent actionEvent) {
-        Stage stage = (Stage) ((Button) actionEvent.getSource()).getScene().getWindow();
-        // is stage minimizable into task bar. (true | false)
-        stage.setIconified(true);
-    }
-
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         new Thread(() -> {
@@ -54,11 +36,6 @@ public class ServerFormController implements Initializable {
                     Thread thread = new Thread(connection);
                     thread.start();
 
-                    /*InputStreamReader inputStreamReader = new InputStreamReader(accept.getInputStream());
-                    BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
-                    String readLine = bufferedReader.readLine();
-                    System.out.println(readLine);*/
-
                 }
 
             } catch (IOException e) {
@@ -67,6 +44,22 @@ public class ServerFormController implements Initializable {
 
         }).start();
     }
+
+    public void btnSend(ActionEvent actionEvent) {
+    }
+
+    public void btnClose(ActionEvent actionEvent) {
+        Stage stage = (Stage) ((Button) actionEvent.getSource()).getScene().getWindow();
+        stage.close();
+    }
+
+    public void btnMinimize(ActionEvent actionEvent) {
+        Stage stage = (Stage) ((Button) actionEvent.getSource()).getScene().getWindow();
+        // is stage minimizable into task bar. (true | false)
+        stage.setIconified(true);
+    }
+
+
 
     public void broadcast(String message) {
         for (ClientConnection clientConnection : this.connectionList) {
