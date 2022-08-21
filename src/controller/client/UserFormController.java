@@ -43,6 +43,7 @@ public class UserFormController {
     }
 
     public void initialize() throws IOException {
+        emojiPaneBar.setVisible(false);
         userName = Data.userName;
         System.out.println("userName is : " +userName);
         socket = new Socket(ConnectionUtil.host, ConnectionUtil.port);
@@ -56,23 +57,35 @@ public class UserFormController {
 
 
     public void onMouseClickEmojiBar(MouseEvent mouseEvent) {
+        if (!emojiPaneBar.isVisible()) {
+            emojiPaneBar.setVisible(true);
+        } else {
+            emojiPaneBar.setVisible(false);
+        }
     }
 
     public void imojiWorry(MouseEvent mouseEvent) {
+        txtMsgInput.appendText("\uD83D\uDE14");
     }
 
     public void imojiGrinningFace(MouseEvent mouseEvent) {
+        txtMsgInput.appendText("\uD83D\uDE00");
     }
 
     public void imojiRedHeart(MouseEvent mouseEvent) {
+        txtMsgInput.appendText("❤");
+
     }
 
     public void imojiWow(MouseEvent mouseEvent) {
+        txtMsgInput.appendText("\uD83D\uDE2E");
     }
 
     public void imojiSad(MouseEvent mouseEvent) {
+        txtMsgInput.appendText("\uD83D\uDE25");
     }
 
     public void imojiSmilingFacewithHeartEyes(MouseEvent mouseEvent) {
+        txtMsgInput.appendText("\uD83D\uDE0D");
     }
 }
