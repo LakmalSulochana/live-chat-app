@@ -23,7 +23,7 @@
         </JFXButton>
         <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="146.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="@../assets/client.jpg" />
+                <Image url="@../assets/img/client.jpg" />
             </image>
         </ImageView>
         <AnchorPane prefHeight="50.0" prefWidth="443.0" style="-fx-background-color: #0984e3;" styleClass="header" stylesheets="@../styles/style.css">

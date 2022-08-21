@@ -5,6 +5,9 @@ import javafx.event.ActionEvent;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
+import javafx.scene.image.ImageView;
+import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 import util.ConnectionUtil;
 
@@ -17,6 +20,7 @@ public class UserFormController {
     public TextArea txtMsgDisplay;
 
     public String userName;
+    public Pane emojiPaneBar;
     PrintWriter printWriter;
     Socket socket = null;
 
@@ -51,4 +55,24 @@ public class UserFormController {
     }
 
 
+    public void onMouseClickEmojiBar(MouseEvent mouseEvent) {
+    }
+
+    public void imojiWorry(MouseEvent mouseEvent) {
+    }
+
+    public void imojiGrinningFace(MouseEvent mouseEvent) {
+    }
+
+    public void imojiRedHeart(MouseEvent mouseEvent) {
+    }
+
+    public void imojiWow(MouseEvent mouseEvent) {
+    }
+
+    public void imojiSad(MouseEvent mouseEvent) {
+    }
+
+    public void imojiSmilingFacewithHeartEyes(MouseEvent mouseEvent) {
+    }
 }

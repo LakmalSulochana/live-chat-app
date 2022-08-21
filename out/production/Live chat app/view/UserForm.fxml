@@ -5,27 +5,15 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="769.0" prefWidth="443.0" style="-fx-background-radius: 10;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.client.UserFormController">
+<AnchorPane prefHeight="797.0" prefWidth="443.0" style="-fx-background-radius: 10;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.client.UserFormController">
     <children>
-        <TextField fx:id="txtMsgInput" layoutX="40.0" layoutY="702.0" prefHeight="35.0" prefWidth="288.0" style="-fx-background-radius: 20;">
-            <padding>
-                <Insets left="10.0" right="45.0" />
-            </padding>
-        </TextField>
-        <JFXButton layoutX="336.0" layoutY="703.0" onAction="#btnSend" prefHeight="35.0" prefWidth="68.0" style="-fx-background-color: #0984e3; -fx-background-radius: 20;" text="Send" textFill="WHITE">
-            <font>
-                <Font name="System Bold" size="12.0" />
-            </font>
-        </JFXButton>
-        <JFXButton buttonType="RAISED" layoutX="285.0" layoutY="700.0" prefHeight="38.0" prefWidth="45.0" text="📷">
-            <font>
-                <Font name="System Bold" size="17.0" />
-            </font>
-        </JFXButton>
-        <TextArea fx:id="txtMsgDisplay" layoutX="39.0" layoutY="80.0" prefHeight="602.0" prefWidth="365.0" />
+        <TextArea fx:id="txtMsgDisplay" layoutX="39.0" layoutY="67.0" prefHeight="602.0" prefWidth="365.0" />
         <AnchorPane prefHeight="50.0" prefWidth="443.0" style="-fx-background-color: #7f8c8d;" styleClass="header" stylesheets="@../styles/style.css">
             <children>
                 <Label prefHeight="50.0" prefWidth="129.0" text="Chat Room-client" textFill="WHITE" wrapText="true">
@@ -48,5 +36,63 @@
                 </JFXButton>
             </children>
         </AnchorPane>
+      <AnchorPane layoutX="39.0" layoutY="679.0" prefHeight="50.0" prefWidth="365.0" style="-fx-background-color: #95afc0;">
+         <children>
+              <JFXButton buttonType="RAISED" layoutX="-7.0" layoutY="6.0" prefHeight="38.0" prefWidth="45.0" text="📷">
+                  <font>
+                      <Font name="System Bold" size="17.0" />
+                  </font>
+              </JFXButton>
+              <TextField fx:id="txtMsgInput" layoutX="30.0" layoutY="6.0" prefHeight="38.0" prefWidth="262.0" style="-fx-background-radius: 20;">
+                  <padding>
+                      <Insets left="10.0" right="45.0" />
+                  </padding>
+              </TextField>
+              <JFXButton layoutX="299.0" layoutY="5.0" onAction="#btnSend" prefHeight="35.0" prefWidth="60.0" style="-fx-background-color: #0984e3; -fx-background-radius: 20;" text="Send" textFill="WHITE">
+                  <font>
+                      <Font name="System Bold" size="12.0" />
+                  </font>
+              </JFXButton>
+            <ImageView fitHeight="26.0" fitWidth="31.0" layoutX="251.0" layoutY="12.0" onMouseClicked="#onMouseClickEmojiBar" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/imoji/icons8-grinning-face-48.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Pane layoutX="39.0" layoutY="733.0" prefHeight="50.0" prefWidth="365.0" style="-fx-background-color: #95afc0;">
+         <children>
+            <ImageView fitHeight="26.0" fitWidth="31.0" layoutX="17.0" layoutY="13.0" onMouseClicked="#imojiGrinningFace" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/imoji/icons8-grinning-face-48.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="26.0" fitWidth="31.0" layoutX="59.0" layoutY="13.0" onMouseClicked="#imojiRedHeart" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/imoji/icons8-red-heart-48.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="26.0" fitWidth="31.0" layoutX="105.0" layoutY="13.0" onMouseClicked="#imojiWow" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/imoji/wow.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="26.0" fitWidth="31.0" layoutX="150.0" layoutY="12.0" onMouseClicked="#imojiSad" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/imoji/sad.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="26.0" fitWidth="31.0" layoutX="197.0" layoutY="13.0" onMouseClicked="#imojiSmilingFacewithHeartEyes" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/imoji/icons8-smiling-face-with-heart-eyes-48.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="emojiPane" fitHeight="26.0" fitWidth="31.0" layoutX="249.0" layoutY="13.0" onMouseClicked="#imojiWorry" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/imoji/worry.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
     </children>
 </AnchorPane>
