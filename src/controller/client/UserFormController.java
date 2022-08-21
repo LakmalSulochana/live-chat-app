@@ -1,4 +1,5 @@
 package controller.client;
+
 import controller.Data;
 import javafx.event.ActionEvent;
 import javafx.scene.control.Button;
@@ -33,16 +34,15 @@ public class UserFormController {
     public void btnSend(ActionEvent actionEvent) throws IOException {
         printWriter = new PrintWriter(socket.getOutputStream());
         printWriter.println(userName + " : " + txtMsgInput.getText());
-//        txtMsgDisplay.appendText("laki : "+txtMsgInput.getText().trim()+"\n");
         printWriter.flush();
+        txtMsgInput.clear();
     }
 
     public void initialize() throws IOException {
         userName = Data.userName;
-        System.out.println("userName is : " + userName);
+        System.out.println("userName is : " +userName);
         socket = new Socket(ConnectionUtil.host, ConnectionUtil.port);
         txtMsgDisplay.appendText("Connect. \n");
-//            txtMsgDisplay.appendText( Data.userName+"\n");
         printWriter = new PrintWriter(socket.getOutputStream());
         TaskReadThread task = new TaskReadThread(socket, this);
         Thread thread = new Thread(task);
@@ -50,9 +50,5 @@ public class UserFormController {
 
     }
 
-    /*public void broadcast(String message) {
-        for (ClientConnection clientConnection : this.connectionList) {
-            clientConnection.sendMessage(message);
-        }
-    }*/
+
 }
